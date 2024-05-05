@@ -1,0 +1,117 @@
+/* Colors palette
+Logo: #B1F35D
+*/
+
+
+
+/* Generic style */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+button {
+    background-color: rgb(185, 249, 88);
+    cursor: pointer;
+}
+
+li {
+    cursor: pointer;
+}
+
+
+/* Navbar components */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    background-color: rgb(243, 255, 224);
+    height: 70px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navbarvalue {
+    padding-left: 30px;
+}
+
+#navbarlogo {
+    width: 140px;
+    height: auto;
+    cursor: pointer;
+}
+
+#navbarbutton {
+    border-radius: 5px;
+    border: 1px solid rgb(163, 163, 163);
+    padding: 10px 15px;
+    font-weight: 500;
+    background-color: rgb(185, 249, 88);
+}
+
+
+/* Hero section */
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar {
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid rgb(208, 208, 208);
+    padding: 0px 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.heroheader {
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+#herobutton {
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#rowmetrics {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+.metricbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    border: 1px solid green;
+}
+
+.metricbox h4 {
+    font-size: 20px;
+}
+
+.metricbox p {
+    font-size: 14px;
+}
