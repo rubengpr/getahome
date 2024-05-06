@@ -1,5 +1,6 @@
 /* Colors palette
 Logo: #B1F35D
+Illustrations: #5FB702
 */
 
 
@@ -16,10 +17,21 @@ body {
 button {
     background-color: rgb(185, 249, 88);
     cursor: pointer;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 50px;
 }
 
 li {
     cursor: pointer;
+}
+
+.h2-grid {
+    font-size: 40px;
+}
+
+.p-grid {
+    font-size: 16px;
 }
 
 
@@ -118,4 +130,13 @@ ul {
     font-size: 14px;
     font-weight: 200;
     margin-bottom: 30px;
+}
+
+
+/* Landing - Section 1 */
+.gridview {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    margin: 150px 50px;
 }
