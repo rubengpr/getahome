@@ -4,6 +4,12 @@ Illustrations: #5FB702
 */
 
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 
 /* Generic style */
 html {
@@ -20,6 +26,9 @@ button {
     padding: 15px 25px;
     border: none;
     border-radius: 50px;
+    min-width: 150px;
+    min-height: 40px;
+    max-width: 250px;
 }
 
 li {
@@ -32,6 +41,21 @@ li {
 
 .p-grid {
     font-size: 16px;
+}
+
+input {
+    margin-bottom: 12px;
+}
+
+section {
+    margin: 0px 50px 0px 50px;
+}
+
+/* Specific styles */
+
+.input-m-width {
+    width: 300px;
+    height: 30px;
 }
 
 
@@ -133,10 +157,31 @@ ul {
 }
 
 
-/* Landing - Section 1 */
+/* Landing - Grid 1 */
 .gridview {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 30px;
     margin: 150px 50px;
+}
+
+
+/* Landing - Mortgage simulator */
+.mortgagecalculator {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 20px;
+}
+
+#mortgageform {
+    display: flex;
+    flex-direction: column;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    background-color: #B1F35D;
+    border-radius: 30px;
+    border: 1px solid gray;
 }
