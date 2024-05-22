@@ -49,7 +49,7 @@ li {
 }
 
 input {
-    margin-bottom: 12px;
+    margin-bottom: 0px;
 }
 
 section {
@@ -196,6 +196,11 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.errormessage {
+    color: red;
+    font-size: 12px;
 }
 
 
